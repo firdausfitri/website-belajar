@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Itinerari Penang 3H2M (Edisi Butterworth - AnaDim Base)</title>
+    <style>
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 5px;
+            font-size: 1.8rem;
+        }
+        .header-sub {
+            text-align: center;
+            color: #7f8c8d;
+            font-size: 0.95rem;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 20px;
+        }
+        .time-slot {
+            margin-bottom: 25px;
+            border-left: 4px solid #ddd;
+            padding-left: 20px;
+        }
+        .time-label {
+            font-weight: 800;
+            color: #e74c3c;
+            font-size: 1.1rem;
+            display: block;
+            margin-bottom: 12px;
+        }
+        .options-container {
+            display: flex;
+            gap: 15px;
+            flex-direction: row;
+        }
+        .option-card {
+            background: #fff;
+            border: 1px solid #eee;
+            border-radius: 10px;
+            padding: 15px;
+            flex: 1;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            transition: transform 0.2s;
+        }
+        .option-card:hover {
+            border-color: #27ae60;
+            transform: translateY(-2px);
+        }
+        .option-tag {
+            font-size: 0.7rem;
+            font-weight: bold;
+            color: #fff;
+            padding: 3px 8px;
+            border-radius: 4px;
+            display: inline-block;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+        }
+        .tag-viral { background: #e67e22; }
+        .tag-santai { background: #3498db; }
+        .tag-nature { background: #27ae60; }
+        .tag-food { background: #e74c3c; }
+        .option-title {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+            color: #2c3e50;
+            font-size: 1rem;
+        }
+        .option-desc {
+            font-size: 0.9rem;
+            color: #666;
+            margin-bottom: 10px;
+            line-height: 1.4;
+        }
+        .map-link {
+            text-decoration: none;
+            color: #3498db;
+            font-size: 0.85rem;
+            font-weight: 700;
+        }
+        .day-header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            font-size: 1.2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 10px;
+        }
+        .info-section {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 10px;
+            border: 1px solid #eee;
+        }
+        ul { margin: 0; padding-left: 18px; }
+        li { margin-bottom: 6px; }
+        .footer {
+            margin-top: 50px;
+            text-align: center;
+            padding-top: 20px;
+            border-top: 2px solid #eee;
+            color: #95a5a6;
+            font-size: 0.9rem;
+        }
+        .footer strong {
+            color: #2c3e50;
+        }
+        @media only screen and (max-width: 600px) {
+            body { padding: 10px; }
+            .container { padding: 15px; }
+            h1 { font-size: 1.5rem; }
+            .day-header { flex-direction: column; align-items: flex-start; }
+            .options-container { flex-direction: column; }
+            .time-slot { padding-left: 15px; border-left-width: 3px; }
+            .map-link {
+                display: block;
+                margin-top: 8px;
+                background: #f0f2f5;
+                text-align: center;
+                padding: 8px;
+                border-radius: 5px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>🌴 Trip Penang 3H2M (Edisi Butterworth - AnaDim Base)</h1>
+    <p class="header-sub">Itinerari kemaskini: fokus makanan halal ✅ | tempat indoor (elak panas) ✅ | mesra kanak-kanak ✅</p>
+    
+    <div class="info-section" style="margin-top: 0;">
+        <h3 style="margin-top:0;">🏠 Homestay (Base)</h3>
+        <p style="margin: 0 0 8px 0; color:#666;">
+            Ini adalah lokasi penginapan anda untuk trip ini (rujukan mudah bila nak set Waze/Maps).
+        </p>
+        <a href="https://www.google.com/maps/place/AnaDim+Homestay/@5.413469,100.3741129,15z/data=!4m6!3m5!1s0x304ac5199ff1d075:0xffddff28049d141d!8m2!3d5.4139849!4d100.3742219!16s%2Fg%2F11t0pgmgmr?entry=ttu&g_ep=EgoyMDI2MDEyMS4wIKXMDSoKLDEwMDc5MjA3M0gBUAM%3D" class="map-link" target="_blank" rel="noopener">📍 AnaDim Homestay — Buka di Google Maps</a>
+    </div>
+
+    
+    <div class="day-header">
+        <span>Hari 1: Jumaat</span>
+        <span style="font-size:0.8rem; background:#ffffff33; padding:2px 8px; border-radius:4px;">Tiba & Santai Sekitar Homestay</span>
+    </div>
+    
+    <div class="time-slot" style="border-color: #e67e22;">
+        <span class="time-label">11:00 AM - Makan Tengah Hari (Area Butterworth/Sungai Dua)</span>
+        <div class="options-container">
+            
+            <div class="option-card">
+                <span class="option-tag tag-food">WAJIB CUBA</span>
+                <span class="option-title">Ida Mee Udang Sungai Dua</span>
+                <p class="option-desc">Sangat dekat dengan homestay (±5–10 min). Kuah pekat, udang segar. Anak-anak boleh pilih nasi goreng jika tak makan mee.</p>
+                <a href="https://www.google.com/maps/search/?api=1&query=Ida+Mee+Udang+Sungai+Dua+Butterworth" class="map-link" target="_blank" rel="noopener">📍 Lihat Lokasi</a>
+            </div>
+    
+
+            <div class="option-card">
+                <span class="option-tag tag-food">NASI CAMPUR</span>
+                <span class="option-title">Restoran Pen Mutiara / Mohamed Long (Seberang Jaya)</span>
+                <p class="option-desc">Jika Pen Mutiara terlalu jauh (di pulau), boleh cuba Mohamed Long di Seberang Jaya untuk nasi kandar/nasi campur.</p>
+                <a href="https://www.google.com/maps/search/?api=1&query=Restoran+Mohamed+Long+Seberang+Jaya" class="map-link" target="_blank" rel="noopener">📍 Lihat Lokasi</a>
+            </div>
+    
+
+            <div class="option-card">
+                <span class="option-tag tag-santai">SUASANA TAMAN</span>
+                <span class="option-title">De Pauh Garden Restaurant</span>
+                <p class="option-desc">Buka 11:30 pagi. Restoran taman ala Bali. Selesa untuk famili (menu Western & Melayu seperti Nasi Goreng Daging Merah).</p>
+                <a href="https://www.google.com/maps/search/?api=1&query=De+Pauh+Garden+Restaurant+Permatang+Pauh" class="map-link" target="_blank" rel="noopener">📍 Lihat Lokasi</a>
+            </div>
+    
+        </div>
+    </div>
+    
+
+    <div class="time-slot" style="border-color: #3498db;">
+        <span class="time-label">2:00 PM - Check-in AnaDim Homestay & Aktiviti Petang (Indoor/Redup)</span>
+        <div class="options-container">
+            
+            <div class="option-card">
+                <span class="option-tag tag-santai">PLAYGROUND</span>
+                <span class="option-title">Sunway Carnival Mall (Seberang Jaya)</span>
+                <p class="option-desc">±5–10 min dari homestay. Bawa anak ke Port Baru Indoor Playground atau Chipmunks Playland. Mall baru renovate, aircond selesa.</p>
+                <a href="https://www.google.com/maps/search/?api=1&query=Sunway+Carnival+Mall+Seberang+Jaya" class="map-link" target="_blank" rel="noopener">📍 Lihat Lokasi</a>
+            </div>
+    
+
+            <div class="option-card">
+                <span class="option-tag tag-nature">DEKAT BASE</span>
+                <span class="option-title">Penang Bird Park (Taman Burung Pulau Pinang)</span>
+                <p class="option-desc">Berjiran dengan kawasan homestay. Outdoor tapi banyak pokok teduh. Boleh beri burung makan dari tangan.</p>
+                <a href="https://www.google.com/maps/search/?api=1&query=Penang+Bird+Park+Seberang+Jaya" class="map-link" target="_blank" rel="noopener">📍 Lihat Lokasi</a>
+            </div>
+    
+
+            <div class="option-card">
+                <span class="option-tag tag-santai">REHAT</span>
+                <span class="option-title">Rehat di Homestay</span>
+                <p class="option-desc">Solat, rehat & bagi anak tidur siang sebab cuaca tengah hari biasanya panas.</p>
+                <a href="https://www.google.com/maps/place/AnaDim+Homestay/@5.413469,100.3741129,15z/data=!4m6!3m5!1s0x304ac5199ff1d075:0xffddff28049d141d!8m2!3d5.4139849!4d100.3742219!16s%2Fg%2F11t0pgmgmr?entry=ttu&g_ep=EgoyMDI2MDEyMS4wIKXMDSoKLDEwMDc5MjA3M0gBUAM%3D" class="map-link" target="_blank" rel="noopener">📍 Lihat Lokasi</a>
+            </div>
+    
+        </div>
+    </div>
+    
+
+    <div class="time-slot" style="border-color: #8e44ad;">
+        <span class="time-label">8:00 PM - Makan Malam</span>
+        <div class="options-container">
+            
+            <div class="option-card">
+                <span class="option-tag tag-food">WESTERN/GRILL</span>
+                <span class="option-title">The Brew House @ Sunway Carnival</span>
+                <p class="option-desc">Kalau masih di mall, boleh makan di sini. Suasana selesa untuk famili.</p>
+                <a href="https://www.google.com/maps/search/?api=1&query=The+Brew+House+Sunway+Carnival+Mall" class="map-link" target="_blank" rel="noopener">📍 Lihat Lokasi</a>
+            </div>
+    
+
+            <div class="option-card">
+                <span class="option-tag tag-food">CHAR KUEY TEOW</span>
+                <span class="option-title">Adam Char Koay Teow (Permatang Pauh)</span>
+                <p class="option-desc">Char Koay Teow basah stail Melayu yang popular di tanah besar. Tak jauh dari homestay.</p>
+                <a href="https://www.google.com/maps/search/?api=1&query=Adam+Char+Koay+Teow+Permatang+Pauh" class="map-link" target="_blank" rel="noopener">📍 Lihat Lokasi</a>
+            </div>
+    
+
+            <div class="option-card">
+                <span class="option-tag tag-santai">SANTAI</span>
+                <span class="option-title">Tapau Pasar Malam / Tomyam Kampung Paya</span>
+                <p class="option-desc">Bungkus makanan dari pasar malam berdekatan (jika ada) atau kedai tomyam sekitar Kampung Paya untuk makan santai di homestay.</p>
+                <a href="https://www.google.com/maps/search/?api=1&query=Kampung+Paya+Butterworth+Tomyam" class="map-link" target="_blank" rel="noopener">📍 Lihat Lokasi</a>
+            </div>
+    
+        </div>
+    </div>
+    
+    
+    <div class="day-header">
+        <span>Hari 2: Sabtu</span>
+        <span style="font-size:0.8rem; background:#ffffff33; padding:2px 8px; border-radius:4px;">Misi Jelajah Pulau (Gerak 7:30–8:00 AM)</span>
+    </div>
+    
+    <div class="time-slot" style="border-color: #27ae60;">
+        <span class="time-label">9:00 AM - Aktiviti Pagi (Tanah Tinggi/Indoor)</span>
+        <div class="options-container">
+            
+            <div class="option-card">
+                <span class="option-tag tag-nature">WAJIB</span>
+                <span class="option-title">Bukit Bendera (Penang Hill)</span>
+                <p class="option-desc">Naik funikular. Di atas sejuk & redup. Boleh bawa anak jalan di The Habitat (canopy walk dalam hutan).</p>
+                <a href="https://www.google.com/maps/search/?api=1&query=Penang+Hill+Funicular" class="map-link" target="_blank" rel="noopener">📍 Lihat Lokasi</a>
+            </div>
+    
+
+            <div class="option-card">
+                <span class="option-tag tag-nature">RAMA-RAMA</span>
+                <span class="option-title">Entopia by Penang Butterfly Farm</span>
+                <p class="option-desc">Teluk Bahang (jauh sikit tapi berbaloi). Indoor + separa outdoor. Anak boleh pegang serangga.</p>
+                <a href="https://www.google.com/maps/search/?api=1&query=Entopia+by+Penang+Butterfly+Farm" class="map-link" target="_blank" rel="noopener">📍 Lihat Lokasi</a>
+            </div>
+    
+
+            <div class="option-card">
+                <span class="option-tag tag-viral">TAMAN TEMA</span>
+                <span class="option-title">ESCAPE Penang</span>
+                <p class="option-desc">Sesuai jika anak lasak & anda ok aktiviti air/luar. (Kurang sesuai kalau nak elak panas sepenuhnya).</p>
+                <a href="https://www.google.com/maps/search/?api=1&query=ESCAPE+Penang" class="map-link" target="_blank" rel="noopener">📍 Lihat Lokasi</a>
+            </div>
+    
+        </div>
+    </div>
+    
+
+    <div class="time-slot" style="border-color: #f1c40f;">
+        <span class="time-label">1:00 PM - Makan Tengah Hari (Di Pulau)</span>
+        <div class="options-container">
+            
+            <div class="option-card">
+                <span class="option-tag tag-food">LAGENDA</span>
+                <span class="option-title">Hameediyah Restaurant (George Town)</span>
+                <p class="option-desc">Nasi kandar tertua, ada aircond. Selesa bawa anak kecil. Murtabak dia sedap.</p>
+                <a href="https://www.google.com/maps/search/?api=1&query=Hameediyah+Restaurant+George+Town" class="map-link" target="_blank" rel="noopener">📍 Lihat Lokasi</a>
+            </div>
+    
+
+            <div class="option-card">
+                <span class="option-tag tag-food">VIRAL</span>
+                <span class="option-title">Nasi Kandar Kampung Melayu (Ayer Itam)</span>
+                <p class="option-desc">Dekat Bukit Bendera. Bawah flat, suasana old school. Kari manis-manis pedas.</p>
+                <a href="https://www.google.com/maps/search/?api=1&query=Nasi+Kandar+Kampung+Melayu+Ayer+Itam" class="map-link" target="_blank" rel="noopener">📍 Lihat Lokasi</a>
+            </div>
+    
+
+            <div class="option-card">
+                <span class="option-tag tag-food">FOOD COURT</span>
+                <span class="option-title">Padang Kota Lama (Esplanade)</span>
+                <p class="option-desc">Makan Mee Sotong Hameed Pata. Terbuka tapi ada bumbung besar + angin laut.</p>
+                <a href="https://www.google.com/maps/search/?api=1&query=Padang+Kota+Lama+Esplanade+Penang" class="map-link" target="_blank" rel="noopener">📍 Lihat Lokasi</a>
+            </div>
+    
+        </div>
+    </div>
+    
+
+    <div class="time-slot" style="border-color: #3498db;">
+        <span class="time-label">2:30 PM - Aktiviti Petang (Elak Panas Terik - Indoor)</span>
+        <div class="options-container">
+            
+            <div class="option-card">
+                <span class="option-tag tag-viral">PLAYGROUND VIRAL</span>
+                <span class="option-title">UFOREA (Island 88, Tanjung Tokong)</span>
+                <p class="option-desc">Indoor playground baru yang sangat cantik & futuristik. Aircond penuh, anak confirm suka.</p>
+                <a href="https://www.google.com/maps/search/?api=1&query=UFOREA+Island+88+Tanjung+Tokong" class="map-link" target="_blank" rel="noopener">📍 Lihat Lokasi</a>
+            </div>
+    
+
+            <div class="option-card">
+                <span class="option-tag tag-viral">DINOSAUR</span>
+                <span class="option-title">The TOP Komtar (Jurassic Research Center)</span>
+                <p class="option-desc">Tengok dinosaur bergerak dalam bangunan Komtar (indoor).</p>
+                <a href="https://www.google.com/maps/search/?api=1&query=The+TOP+Komtar+Jurassic+Research+Center" class="map-link" target="_blank" rel="noopener">📍 Lihat Lokasi</a>
+            </div>
+    
+
+            <div class="option-card">
+                <span class="option-tag tag-santai">MALL BESAR</span>
+                <span class="option-title">Gurney Plaza / Gurney Paragon</span>
+                <p class="option-desc">Mall besar tepi laut. Boleh window shopping & lepak kafe sejuk.</p>
+                <a href="https://www.google.com/maps/search/?api=1&query=Gurney+Plaza" class="map-link" target="_blank" rel="noopener">📍 Lihat Lokasi</a>
+            </div>
+    
+        </div>
+    </div>
+    
+
+    <div class="time-slot" style="border-color: #e74c3c;">
+        <span class="time-label">6:00 PM - Santai Petang & Makan Malam</span>
+        <div class="options-container">
+            
+            <div class="option-card">
+                <span class="option-tag tag-nature">RIADAH</span>
+                <span class="option-title">Gurney Bay (Gurney Drive)</span>
+                <p class="option-desc">Taman rekreasi tepi laut yang baru. Ada playground mengadap laut. Pergi waktu petang bila matahari dah turun.</p>
+                <a href="https://www.google.com/maps/search/?api=1&query=Gurney+Bay+Penang" class="map-link" target="_blank" rel="noopener">📍 Lihat Lokasi</a>
+            </div>
+    
+
+            <div class="option-card">
+                <span class="option-tag tag-food">MAKAN</span>
+                <span class="option-title">Restoran Kapitan (Chulia Street)</span>
+                <p class="option-desc">Ayam Tandoori + Naan Cheese. Servis laju (sesuai untuk famili).</p>
+                <a href="https://www.google.com/maps/search/?api=1&query=Restoran+Kapitan+Chulia+Street" class="map-link" target="_blank" rel="noopener">📍 Lihat Lokasi</a>
+            </div>
+    
+
+            <div class="option-card">
+                <span class="option-tag tag-santai">TAPAU</span>
+                <span class="option-title">Jeruk Madu Pak Ali / Roti Canai Transfer Road</span>
+                <p class="option-desc">Beli untuk bawa balik makan di homestay (ikut waktu operasi).</p>
+                <a href="https://www.google.com/maps/search/?api=1&query=Transfer+Road+Roti+Canai+Penang" class="map-link" target="_blank" rel="noopener">📍 Lihat Lokasi</a>
+            </div>
+    
+        </div>
+    </div>
+    
+    
+    <div class="day-header">
+        <span>Hari 3: Ahad</span>
+        <span style="font-size:0.8rem; background:#ffffff33; padding:2px 8px; border-radius:4px;">Sarapan & OTW Balik (Batu Kawan / Southbound)</span>
+    </div>
+    
+    <div class="time-slot" style="border-color: #e67e22;">
+        <span class="time-label">9:00 AM - Sarapan Pagi</span>
+        <div class="options-container">
+            
+            <div class="option-card">
+                <span class="option-tag tag-viral">ROTI CANAI</span>
+                <span class="option-title">Roti Canai Mamu Penaga (Penaga)</span>
+                <p class="option-desc">Roti canai terbang. Jauh sikit ke utara, tapi unik.</p>
+                <a href="https://www.google.com/maps/search/?api=1&query=Roti+Canai+Mamu+Penaga" class="map-link" target="_blank" rel="noopener">📍 Lihat Lokasi</a>
+            </div>
+    
+
+            <div class="option-card">
+                <span class="option-tag tag-food">DEKAT</span>
+                <span class="option-title">Warung sekitar Bagan Ajam / Raja Uda</span>
+                <p class="option-desc">Cari nasi lemak / roti canai sekitar Bagan Ajam atau Raja Uda (banyak kedai makan pagi).</p>
+                <a href="https://www.google.com/maps/search/?api=1&query=Bagan+Ajam+Butterworth+Sarapan" class="map-link" target="_blank" rel="noopener">📍 Lihat Lokasi</a>
+            </div>
+    
+
+            <div class="option-card">
+                <span class="option-tag tag-santai">HOMESTAY</span>
+                <span class="option-title">Sarapan ringkas & checkout</span>
+                <p class="option-desc">Jika nak santai, boleh sarapan ringkas dulu di homestay dan terus gerak ikut jadual balik.</p>
+                <a href="https://www.google.com/maps/place/AnaDim+Homestay/@5.413469,100.3741129,15z/data=!4m6!3m5!1s0x304ac5199ff1d075:0xffddff28049d141d!8m2!3d5.4139849!4d100.3742219!16s%2Fg%2F11t0pgmgmr?entry=ttu&g_ep=EgoyMDI2MDEyMS4wIKXMDSoKLDEwMDc5MjA3M0gBUAM%3D" class="map-link" target="_blank" rel="noopener">📍 Lihat Lokasi</a>
+            </div>
+    
+        </div>
+    </div>
+    
+
+    <div class="time-slot" style="border-color: #27ae60;">
+        <span class="time-label">11:00 AM - Singgah Sebelum Balik (Area Batu Kawan)</span>
+        <div class="options-container">
+            
+            <div class="option-card">
+                <span class="option-tag tag-santai">PLAYGROUND</span>
+                <span class="option-title">IKEA Batu Kawan (A+ Babyland)</span>
+                <p class="option-desc">Bawa anak main indoor playground. Selesa, mak ayah boleh cuci mata barang rumah.</p>
+                <a href="https://www.google.com/maps/search/?api=1&query=IKEA+Batu+Kawan" class="map-link" target="_blank" rel="noopener">📍 Lihat Lokasi</a>
+            </div>
+    
+
+            <div class="option-card">
+                <span class="option-tag tag-santai">SHOPPING</span>
+                <span class="option-title">Design Village Outlet Mall</span>
+                <p class="option-desc">Beli barang branded diskaun. Kawasan terbuka tapi banyak laluan berbumbung.</p>
+                <a href="https://www.google.com/maps/search/?api=1&query=Design+Village+Outlet+Mall+Batu+Kawan" class="map-link" target="_blank" rel="noopener">📍 Lihat Lokasi</a>
+            </div>
+    
+
+            <div class="option-card">
+                <span class="option-tag tag-nature">SANTAI</span>
+                <span class="option-title">Terus gerak balik ikut Jambatan Kedua</span>
+                <p class="option-desc">Ikut Jambatan Kedua (Sultan Abdul Halim Muadzam Shah) untuk view cantik dan biasanya kurang jam.</p>
+                <a href="https://www.google.com/maps/search/?api=1&query=Second+Penang+Bridge" class="map-link" target="_blank" rel="noopener">📍 Lihat Lokasi</a>
+            </div>
+    
+        </div>
+    </div>
+    
+
+    <div class="time-slot" style="border-color: #8e44ad;">
+        <span class="time-label">1:00 PM - Makan Tengah Hari Terakhir</span>
+        <div class="options-container">
+            
+            <div class="option-card">
+                <span class="option-tag tag-food">SUP POWER</span>
+                <span class="option-title">TwinCafe Sup88 (Simpang Ampat)</span>
+                <p class="option-desc">Laluan keluar ke highway. Sup ekor & gearbox padu.</p>
+                <a href="https://www.google.com/maps/search/?api=1&query=TwinCafe+Sup88+Simpang+Ampat" class="map-link" target="_blank" rel="noopener">📍 Lihat Lokasi</a>
+            </div>
+    
+
+            <div class="option-card">
+                <span class="option-tag tag-food">NASI KANDAR</span>
+                <span class="option-title">Nasi Kandar Pelita (Autocity Juru)</span>
+                <p class="option-desc">Standard, selesa, parking mudah sebelum masuk highway.</p>
+                <a href="https://www.google.com/maps/search/?api=1&query=Nasi+Kandar+Pelita+Autocity+Juru" class="map-link" target="_blank" rel="noopener">📍 Lihat Lokasi</a>
+            </div>
+    
+
+            <div class="option-card">
+                <span class="option-tag tag-santai">GOODBYE</span>
+                <span class="option-title">Terus balik (ikut trafik)</span>
+                <p class="option-desc">Kalau dah penat, terus masuk highway dan rehat di R&R bila perlu.</p>
+                <a href="https://www.google.com/maps/search/?api=1&query=R%26R+PLUS+Highway" class="map-link" target="_blank" rel="noopener">📍 Lihat Lokasi</a>
+            </div>
+    
+        </div>
+    </div>
+    
+    
+    
+    <div class="info-section">
+        <h3 style="margin-top:0;">✅ Nota & Tips Ringkas</h3>
+        <ul>
+            <li><b>Fokus trip:</b> makanan halal, tempat indoor (elak panas), dan mesra kanak-kanak.</li>
+            <li><b>Hari 2 (Pulau):</b> gerak awal (7:30–8:00 AM) untuk elak jam dan cari parking senang.</li>
+            <li><b>Hari 1:</b> susun aktiviti dekat homestay (Sungai Dua / Seberang Jaya) untuk lebih santai.</li>
+            <li><b>Hari 3:</b> singgah Batu Kawan jika laluan balik anda melalui Jambatan Kedua.</li>
+            <li>Semua tempat ada <b>link Google Maps</b> (tap “Lihat Lokasi”).</li>
+        </ul>
+    </div>
+
+    <div class="footer">
+        Disediakan oleh <strong>Firdaus Fitri</strong><br>
+        &copy; 2026 Penang Trip Planner
+    </div>
+</div>
+</body>
+</html>
